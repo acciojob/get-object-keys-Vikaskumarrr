@@ -1,16 +1,16 @@
 //your JS code here. If required.
-function addGetKeysMethod() {
-    Object.prototype.getKeys = function() {
-        return Object.keys(this);
-    }
+function getThekeys (){
+	Object.prototype.getkeys= (){
+		return Object.keys(this);
+	}
 }
 
-addGetKeysMethod();
+getThekeys();
 
-let student = { 
-    name: "vikas",
+let student = {
+	name: "vikas"
 }
 
-const key = student.getKeys();
+const key = student.getkeys();
 console.log(key);
 
