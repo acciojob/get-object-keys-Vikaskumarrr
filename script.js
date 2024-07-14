@@ -1,6 +1,6 @@
 //your JS code here. If required.
 function getThekeys (){
-	Object.prototype.getkeys= (){
+	Object.prototype.getkeys= function(){
 		return Object.keys(this);
 	}
 }
